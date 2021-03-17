@@ -5,8 +5,6 @@ from getpass import getpass
 import time
 
 COURSE_LINK = 'https://class.mimir.io/courses/4f1e9d3e-57b4-4a0e-9e5e-3091fd35f5b2'
-MAIL = input('Mail: ')
-PSWD = getpass()
 autogenerate_output_time = 3
 
 ALL_COURSE_XPATH = '/html/body/div[3]/div/div[2]/div[3]/div[2]/div/div/div[2]/div/div/div[1]/div/div[1]/div[2]'
@@ -151,6 +149,8 @@ class Bot:
 
 if __name__ == '__main__':
     bot = Bot()
+    MAIL = input('Mail: ')
+    PSWD = getpass()
     bot.login_mimir(MAIL, PSWD)
     bot.enter_course()
     bot.select_assignment('Tarea 1')

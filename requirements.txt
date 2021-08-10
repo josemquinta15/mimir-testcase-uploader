@@ -1,0 +1,6 @@
+numpy==1.20.3
+python-dotenv==0.17.1
+pywin32==301
+selenium==3.141.0
+urllib3==1.26.5
+xerox==0.4.1

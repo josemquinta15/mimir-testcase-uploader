@@ -1,13 +1,19 @@
-# mimir-testcase-uploader
+# DCCarcassone-Jr
 
-## Requisitos
-* Selenium
-    * Instalar mediante "pip install selenium" 
+Este reporsitorio corresponde a la base del uploader de testcases a mimir. Incluye espacio para los códigos solucion, input y main de cada parte.
 
-* Instrucciones
-    1) Colocar el código que resuelve el ejercicio en la parte correspondiente de mimir (Solution Code).
-    2) Crear los testcases utilizando Scripter
-    3) Copiar los inputs creados por scripter a la carpeta ```input``` sin cambiar el formato y borrando los preexistentes.
-    4) Colocar los inputs que desean explicar en la descripción en los primeros puestos, ya la primera mitad de los Testcases seran públicos y la segunda mitad privados.
-    5) Correr ```input_uploader.py```, pedira el correo UC y contraseña para poder entrar a mimir, además del nombre de la tarea, la parte a la cual deseas subir los testcases y el número de estos. Después de esto comenzara a subir los testcases.
-    6) Si todo salio bien, los testcases se encontraran subidos en mimir.
+
+## Autores
+
+| Nombre | Github | Correo |
+| --- | --- | --- |
+| Alfonso Irarrázaval ⭐ | [@auirarrazaval](https://github.com/auirarrazaval) | auirarrazaval@uc.cl |
+| Ignacio Bascuñán | [@nachobascar](https://github.com/nachobascar)  | nachobascar@uc.cl |
+| José Antonio Castro | [@Baelfire18](https://github.com/Baelfire18) | jacastro18@uc.cl |
+| Pablo Kipreos | [@PabloK98](https://github.com/PabloK98) | pjkipreos@uc.cl |
+| Nicolás Massardo | [@nmassardot](https://github.com/nmassardot) | nmassardot@uc.cl |
+| Ignacio Porte | [@IgnacioPorte](https://github.com/IgnacioPorte) | ignacio.porte@uc.cl | 
+| José Miguel Quintana | [@josemquinta15](https://github.com/josemquinta15) | josemiguelquinta@uc.cl |
+| Carolina Urtubia | [@totaurt ](https://github.com/totaurt ) | curtubia@uc.cl |
+
+Un honor cabros!
